@@ -10,7 +10,7 @@ pipeline {
     stage('Checkout') {
       steps {
         git branch: 'master',
-            url: 'https://github.com/name/mca_1ms24mc011_0302'
+            url: 'https://github.com/1ms24mc011/mca_1ms24mc011_0302'
       }
     }
 
